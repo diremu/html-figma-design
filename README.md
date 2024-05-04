@@ -1,2 +1,2 @@
-# html-figma-design
-Just a figma design recreated using html and css
+#Figma Design Challenge
+I took this up as a figma design challenge and have completed the deesigning portion and I have hosted it on my GitHub account for display and hosted it with th Netlify services at.

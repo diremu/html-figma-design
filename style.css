@@ -7,6 +7,13 @@
     padding:0;
     margin:0;
     font-family: 'Recursive';
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+
+body {
+    overflow-x:hidden;
+    overflow-y: scroll;
 }
 
 #main-div {
@@ -18,11 +25,13 @@
 
 header {
     padding: 40px 4vw;
+    background-color: rgba(16, 16, 26, 0.932);
     border-bottom: .5px solid rgba(94, 92, 92, 0.185);
 }
 
 header>nav {
     font-size: 1rem;
+    
 }
 
 #top-nav {
@@ -52,10 +61,6 @@ header>nav {
     flex-basis:45%;
 }
 
-/*
-apparently using a class based method doesn't seperate them with padding
-*/
-
 #top-nav >ul > li:nth-child(2) {
     padding:0px 20px
 }
@@ -84,8 +89,9 @@ apparently using a class based method doesn't seperate them with padding
 }
 
 .nav-item {
-    padding-right: 15px;
+    padding-right: 35px;
 }
+
 .nav-icons {
     width: 2vw;
     height: 2vh;
@@ -95,6 +101,7 @@ apparently using a class based method doesn't seperate them with padding
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
 }
 
 #second-nav {
@@ -112,10 +119,6 @@ apparently using a class based method doesn't seperate them with padding
     color: grey;
 }
 
-main {
-    padding-top: 10px;
-}
-
 .nav-icons:last-of-type {
     padding-right: 15px;
 }
@@ -129,3 +132,65 @@ main {
     background-clip: text;
     color: transparent;
 }
+
+main {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(16, 16, 26, 0.932);
+}
+
+#card-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 4rem;
+    flex-basis: 70%;
+    background-color: rgba(16, 16, 26, 0.932);
+}
+
+.card {
+    width:20vw;
+    max-width: 300px;
+    min-width: 220px;
+    background-color: white;
+    color: black;
+    text-wrap: wrap;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 2vw 3vw 2vw;
+    flex-basis: 30%;
+}
+
+.card-img {
+    width: 18vw;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card-heading {
+    font-family: sans-serif;
+    font-weight: 750;
+    padding:10px 0;
+}
+
+.card-desc {
+    font-size: 0.8rem;
+    padding-bottom: 15px;
+}
+
+.card-footer {
+    font-size: 0.8rem;
+}
+
+.card-footer span {
+    padding-right: 10px;
+}
+
