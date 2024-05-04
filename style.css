@@ -1,12 +1,12 @@
 @font-face {
-    font-family: 'Quicksand';
-    src: url(./Fonts/Quicksand.ttf);
+    font-family: 'Recursive';
+    src: url(./Fonts/Recursive/Recursive-VariableFont_CASL\,CRSV\,MONO\,slnt\,wght.ttf);
 }
 
 * {
     padding:0;
     margin:0;
-    font-family: 'Quicksand';
+    font-family: 'Recursive';
 }
 
 #main-div {
@@ -74,6 +74,58 @@ apparently using a class based method doesn't seperate them with padding
 
 #big-heading {
     color:rgb(230, 133, 133);
-    font-style: italic;
+    font-family: 'Recursive';
     font-weight: 480
+}
+
+#logo {
+    width: 125px;
+    height: 125px;
+}
+
+.nav-item {
+    padding-right: 15px;
+}
+.nav-icons {
+    width: 2vw;
+    height: 2vh;
+}
+
+#mid-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#second-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+#second-nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: grey;
+}
+
+main {
+    padding-top: 10px;
+}
+
+.nav-icons:last-of-type {
+    padding-right: 15px;
+}
+
+#grid {
+    padding-right: 0px;
+}
+
+.nav-link:last-of-type > span {
+    background:linear-gradient(90deg,rgb(155, 154, 154), rgba(16, 16, 26, 0.932));
+    background-clip: text;
+    color: transparent;
 }
