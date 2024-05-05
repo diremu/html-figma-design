@@ -14,6 +14,7 @@
 body {
     overflow-x:hidden;
     overflow-y: scroll;
+    background-color: rgba(16, 16, 26, 0.932);
 }
 
 #main-div {
@@ -31,7 +32,6 @@ header {
 
 header>nav {
     font-size: 1rem;
-    
 }
 
 #top-nav {
@@ -45,10 +45,6 @@ header>nav {
     flex-direction: row;
     justify-content: center;
     list-style: none;
-}
-
-#top-nav >li {
-    list-style-type: none;
 }
 
 #top-nav a {
@@ -89,7 +85,8 @@ header>nav {
 }
 
 .nav-item {
-    padding-right: 35px;
+    margin: 0 10px;
+    padding: 5 5px;
 }
 
 .nav-icons {
@@ -101,12 +98,12 @@ header>nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
 }
 
 #second-nav {
     display: flex;
     flex-direction: column;
+    padding:5px;
 }
 
 #second-nav ul {
@@ -139,6 +136,7 @@ main {
     justify-content: center;
     flex-direction: column;
     background-color: rgba(16, 16, 26, 0.932);
+    border-bottom: .5px solid rgba(94, 92, 92, 0.185);
 }
 
 #card-div {
@@ -194,3 +192,56 @@ main {
     padding-right: 10px;
 }
 
+#page-numbers {
+    background-color: rgba(16, 16, 26, 0.932);
+    display: flex;
+    justify-content: center;
+    
+}
+
+#last-nav {
+    display:flex;
+    flex-direction: column;
+}
+
+#last-nav ul {
+    display:flex;
+    justify-content: center;
+    list-style: none;
+    gap:2rem;
+    color:grey;
+}
+#last-nav ul li {
+    padding:5px;
+}
+
+#last-nav ul li:hover {
+    color:rgb(230, 133, 133);
+    cursor:pointer;
+    border-top: 1px solid rgb(230, 133, 133);
+    padding:4px 5px;
+}
+
+.active {
+    color:rgb(230, 133, 133);
+    cursor:pointer;
+    border-top: 1px solid rgb(230, 133, 133);
+    padding:4px 5px;
+}
+
+footer {
+    background-color: rgba(16, 16, 26, 0.932);
+    padding: 20px 0 100px;
+    display:flex;
+    justify-content: space-around;
+}
+
+.twitter-link {
+    background-color: rgb(76, 153, 163);
+    font-size: 0.7rem;
+    padding: 3px;
+    border-radius: 4px;
+    color:white;
+    text-decoration: none;
+    margin-left: 10px;
+}

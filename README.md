@@ -1,2 +1,2 @@
 #Figma Design Challenge
-I took this up as a figma design challenge and have completed the deesigning portion and I have hosted it on my GitHub account for display and hosted it with th Netlify services at.
+This is a figma design challenge that is displayed [here](https://www.figma.com/file/nh0V05z3NB87ue9v5PcO3R/writings.dev?type=design&node-id=0-1&mode=design)
